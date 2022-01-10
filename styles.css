@@ -1,0 +1,134 @@
+header, footer {
+    width: 100%;
+    height: auto;
+}
+
+.main-title{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(63, 63, 228);
+    height: 80px;
+}
+.name{
+    margin-left: 50px;
+    display: inline-flex;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+.title {
+    margin-right: 50px;
+    display: inline-flex;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav {
+    background-image: url(./Images/istockphoto-597938858-612x612.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+a:visited,a:link {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: right;
+    color: white;
+    width: 100%;
+
+}
+ul li {
+    margin-right: 40px;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    overflow-x: hidden;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.content-spacer {
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
+
+}
+.quarter {
+    width: 25%;
+    border-right: 5px solid black;
+    display: inline-flex;
+}
+
+.header-spacer {
+
+    width: 100%;
+    text-align: right;
+    margin-right: 40px;
+}
+
+.three {
+    width: 75%;
+    display: inline-flex;
+}
+.third{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+.third img {
+    object-fit: cover;
+}
+#contact {
+    display: flex!important;
+    flex-direction: column;
+}
+#button {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content:center;
+    align-items: center;
+}
+#button button {
+    width: 200px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 1250px) {
+
+    section { 
+    flex-wrap: wrap;
+    height: auto;
+    }
+
+    .quarter {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .three {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        height: 300px;
+    }
+    
+}
